@@ -19,10 +19,11 @@ The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxq
 
 ### Tricks
   #### Screen Wrapping
-  **Jumping past the screen border will wrap you to the otherside**
+  + **Jumping past the screen border will wrap you to the otherside**
   ![Screen-Wrap](gifs/screenWrap.gif)
   
   #### Bouncing
-  **Enemies can be bounced on for extra height if you jump on top of them**
+  + **Enemies can be bounced on for extra height if you jump on top of them**
   ![Bounce](gifs/bounce.gif)
-  **Careful not to miss, or you will get stunned and knocked away!**
+  
+  + **Careful not to miss, or you will get stunned and knocked away!**
