@@ -18,6 +18,7 @@ The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxq
 + **F5** toggles between fullscreen/standard mode
 
 ### Tricks
+  **Jumping past the screen border will wrap you to the otherside**
   ![Screen-Wrap](gifs/screenWrap.gif)
-  
+  **Enemies can be bounced on for extra height if you jump on top of them**
   ![Bounce](gifs/bounce.gif)
