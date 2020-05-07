@@ -8,7 +8,7 @@ The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxq
   ![Demo](gifs/flightless_demo.gif)
   
 ### Goal
-  The goal of the game is to get our flightless friend, the penguin, as high as you can. You can jump, bounce on other animals, and randomly spawning balloons to get the highest score possible.
+  The goal of the game is to get our flightless friend, the penguin, as high as you can. You can jump, bounce on other animals, and ride randomly spawning balloons to get the highest score possible.
   
 ### Controls
 
