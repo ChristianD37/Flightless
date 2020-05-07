@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:46a881ee2603246f4bbb78cfa6f653c0:9e39524ee70909d0c2860a4d09850996:f577eddfb158fb8f02b8e1cd82dafe64$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="articSpritesv4.png" width="506" height="266">
+    <sprite n="grandiceBlock.png" x="37" y="1" w="200" h="20"/>
+    <sprite n="iceBlock.png" x="239" y="1" w="100" h="20"/>
+    <sprite n="orca.png" x="91" y="65" w="395" h="200"/>
+    <sprite n="orcafin.png" x="43" y="65" w="46" h="48"/>
+    <sprite n="PenguinLeftStand.png" x="263" y="23" w="30" h="40"/>
+    <sprite n="PenguinRightStand.png" x="295" y="23" w="30" h="40"/>
+    <sprite n="penguinwalklefttest.png" x="359" y="23" w="30" h="40"/>
+    <sprite n="penguinwalkrighttest.png" x="391" y="23" w="30" h="40"/>
+    <sprite n="Penguinwhack.png" x="327" y="23" w="30" h="40"/>
+    <sprite n="seagullmid.png" x="469" y="1" w="30" h="20"/>
+    <sprite n="seagullWingsDown.png" x="341" y="1" w="30" h="20"/>
+    <sprite n="seagullWingsHalfDown.png.png" x="373" y="1" w="30" h="20"/>
+    <sprite n="seagullWingsHalfUp.png" x="405" y="1" w="30" h="20"/>
+    <sprite n="seagullWingsUp.png" x="437" y="1" w="30" h="20"/>
+    <sprite n="sealdown.png" x="423" y="23" w="40" h="40"/>
+    <sprite n="sealmid.png" x="465" y="23" w="40" h="40"/>
+    <sprite n="sealup.png" x="1" y="65" w="40" h="40"/>
+    <sprite n="snowman.png" x="1" y="23" w="17" h="28"/>
+    <sprite n="Star_no_light.png" x="1" y="1" w="7" h="7"/>
+    <sprite n="Star_shine1.png" x="10" y="1" w="7" h="7"/>
+    <sprite n="Star_shine2.png" x="19" y="1" w="7" h="7"/>
+    <sprite n="Star_shine3.png" x="28" y="1" w="7" h="7"/>
+    <sprite n="walrussleep1xl.png" x="20" y="23" w="79" h="35"/>
+    <sprite n="walrussleep2xl.png" x="101" y="23" w="79" h="35"/>
+    <sprite n="walrussleep3xl.png" x="182" y="23" w="79" h="35"/>
+</TextureAtlas>
