@@ -27,3 +27,15 @@ The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxq
   ![Bounce](gifs/bounce.gif)
   
   + **Careful not to miss, or you will get stunned and knocked away!**
+  
+  ## Special Thanks
+  
+  **codeman38** for his "Press Start 2P" font
+  
+  **Chris Bradfield** for his pygame tutorials
+  
+  **The Pygame reddit** for answering my questions
+  
+  **Beepbox** and **Bfxr** for being great free sound tools
+  
+  **You** for playing
