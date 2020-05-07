@@ -18,4 +18,6 @@ The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxq
 + **F5** toggles between fullscreen/standard mode
 
 ### Tricks
-
+  ![Screen-Wrap](gifs/screenWrap.gif)
+  
+  ![Bounce](gifs/bounce.gif)
