@@ -1,3 +1,3 @@
 # Flightless
 
-![Demo] (flightless_demo.gif)
+![Demo] (/flightless_demo.gif)
