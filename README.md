@@ -2,7 +2,7 @@
 
 ## Download
 
-The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxqS-VQTg8leSHrN05Qb_l/view?usp=sharing)
+The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxqS-VQTg8leSHrN05Qb_l/view?usp=sharing) or on[my itch.io](https://christiand37.itch.io/flightless)
 
 ## How to Play
   ![Demo](gifs/flightless_demo.gif)
