@@ -14,6 +14,8 @@ The game can be downloaded [here](https://drive.google.com/file/d/1LDzizuABTKBxq
 
 + **ASDW** are the default controls. These can be changed to the **Arrow** keys in the options menu.
 + **Space** is the jump button. It can also be used to stutter your momentum (Flap) if the penguin is falling
++ **Enter** is the start/select button. It will also pause the game
++ **Backspace** can be used to return in the option menu
 + **Esc** can be used to close the game
 + **F5** toggles between fullscreen/standard mode
 
