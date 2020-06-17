@@ -37,7 +37,7 @@ class Player(pygame.sprite.Sprite):
         self.rect.y += 1
         hits = pygame.sprite.spritecollide(self,self.game.platforms, False)
         #self.rect.y -= 1
-        if hits and not self.jumping:
+        if hits and not self.jumping and not self.got_balloon:
             self.game.jump_sound.play()
             self.velocity.y = player_jump
             self.jumping = True
