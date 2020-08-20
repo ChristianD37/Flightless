@@ -411,46 +411,45 @@ class Game:
     def load_data(self):
         self.dir = path.dirname(path.abspath("game.py")) # Gets the directory name of the game.py file
         img_dir = path.join(self.dir, "Sprites")
-        with open(path.join(self.dir,HS_FILE), 'r+' ) as file: # open highscore file, w allows us to write the file and creates it if doesnt exist
-            # Read the highscore only if it exists
-            try:
+        try:
+            with open(path.join(self.dir,HS_FILE), 'r+' ) as file: # open highscore file, w allows us to write the file and creates it if doesnt exist
+                # Read the highscore only if it exists
                 self.highscore = float(file.read())
-                file.close()
-            except:
-                self.highscore = 0 # If file isnt read, use 0
+        except (OSError, ValueError):
+            self.highscore = 0 # If file isnt read, use 0
 
-            # Load the spritesheet
-            self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
+        # Load the spritesheet
+        self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
 
-            # Load the snow
-            self.initializeSnow()
+        # Load the snow
+        self.initializeSnow()
 
-            # Load controls
-            self.LEFT_KEY = pygame.K_a
-            self.RIGHT_KEY = pygame.K_d
-            self.UP_KEY = pygame.K_w
-            self.DOWN_KEY = pygame.K_s
+        # Load controls
+        self.LEFT_KEY = pygame.K_a
+        self.RIGHT_KEY = pygame.K_d
+        self.UP_KEY = pygame.K_w
+        self.DOWN_KEY = pygame.K_s
 
-            # load sounds
-            self.sound_dir = path.join(self.dir, "sound")
-            self.jump_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Jump8.wav"))
-            self.jump_sound.set_volume(.1)
-            self.bounce_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Bounce.wav"))
-            self.bounce_sound.set_volume(.1)
-            self.hurt_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Hurt.wav"))
-            self.hurt_sound.set_volume(.1)
-            self.select_sound = pygame.mixer.Sound(path.join(self.sound_dir,"Cursor_Select.wav"))
-            self.select_sound.set_volume(.1)
-            self.press_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Press_Sound.wav"))
-            self.press_sound.set_volume(.1)
-            self.flap_sound = pygame.mixer.Sound(path.join(self.sound_dir, "flap.wav"))
-            self.flap_sound.set_volume(.1)
-            self.falling_sound = pygame.mixer.Sound(path.join(self.sound_dir, "falling.wav"))
-            self.falling_sound.set_volume(.5)
-            self.lose_sound = pygame.mixer.Sound(path.join(self.sound_dir, "lose.wav"))
-            self.lose_sound.set_volume(.5)
-            self.up_sound = pygame.mixer.Sound(path.join(self.sound_dir, "fly_away.wav"))
-            self.up_sound.set_volume(.5)
+        # load sounds
+        self.sound_dir = path.join(self.dir, "sound")
+        self.jump_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Jump8.wav"))
+        self.jump_sound.set_volume(.1)
+        self.bounce_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Bounce.wav"))
+        self.bounce_sound.set_volume(.1)
+        self.hurt_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Hurt.wav"))
+        self.hurt_sound.set_volume(.1)
+        self.select_sound = pygame.mixer.Sound(path.join(self.sound_dir,"Cursor_Select.wav"))
+        self.select_sound.set_volume(.1)
+        self.press_sound = pygame.mixer.Sound(path.join(self.sound_dir, "Press_Sound.wav"))
+        self.press_sound.set_volume(.1)
+        self.flap_sound = pygame.mixer.Sound(path.join(self.sound_dir, "flap.wav"))
+        self.flap_sound.set_volume(.1)
+        self.falling_sound = pygame.mixer.Sound(path.join(self.sound_dir, "falling.wav"))
+        self.falling_sound.set_volume(.5)
+        self.lose_sound = pygame.mixer.Sound(path.join(self.sound_dir, "lose.wav"))
+        self.lose_sound.set_volume(.5)
+        self.up_sound = pygame.mixer.Sound(path.join(self.sound_dir, "fly_away.wav"))
+        self.up_sound.set_volume(.5)
 
 
     def initializeSnow(self):
