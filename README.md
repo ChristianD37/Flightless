@@ -30,6 +30,9 @@ The game can be downloaded or on [my itch.io](https://christiand37.itch.io/fligh
   
   + **Careful not to miss, or you will get stunned and knocked away!**
   
+  ## Other Contributors:
+  + **talljosh** - High Score File read-in patch
+  
   ## Special Thanks
   
   **codeman38** for his "Press Start 2P" font
